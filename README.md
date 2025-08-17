@@ -10,12 +10,6 @@
 
 An interactive web-based dashboard for comprehensive loan default analysis using machine learning and statistical methods. This project provides real-time insights into loan default patterns through dynamic visualizations and predictive modeling.
 
-## 👥 Team Members
-
-- **Ankit** - Data Analysis & Visualization
-- **Shilpa** - Statistical Analysis & Testing  
-- **Vivek** - Machine Learning & Model Development
-
 ## ✨ Key Features
 
 ### 📊 Interactive Visualizations
