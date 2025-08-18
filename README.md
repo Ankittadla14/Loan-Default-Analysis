@@ -7,19 +7,17 @@ This project analyzes and predicts **loan default risk** using machine learning,
 ## 📂 Project Structure
 ```
 loan-default-prediction/
-│── loan_prediction.ipynb   # Jupyter Notebook for EDA, preprocessing, ML
-│── trial.py                # Dash app for interactive analysis
+│── Prediction_model.ipynb   # Jupyter Notebook for EDA, preprocessing, ML
+│── Dashboard.py                # Dash app for interactive analysis
 │── LoanDefault_Cleaned.csv # Dataset (cleaned)
 │── LoanDefault_Updated.csv # Dataset (updated, if you use it)
 │── requirements.txt        # Python dependencies
 │── README.md               # Project documentation
 │── .gitignore              # Ignore unnecessary files
 │
-├── models/                 # (optional) saved models (e.g., loan_model.pkl, scaler.pkl)
-├── assets/                 # (optional) custom CSS/images for Dash
 ```
 
-> **Note on dataset path**: In `trial.py` you currently load the dataset using an absolute Windows path.  
+> **Note on dataset path**: In `Dashboard.py` you currently load the dataset using an absolute Windows path.  
 > For portability, change it to a **relative path**, for example:
 > ```python
 > file_path = "LoanDefault_Cleaned.csv"
@@ -56,13 +54,13 @@ loan-default-prediction/
 
 ### Run Jupyter Notebook
 ```bash
-jupyter notebook loan_prediction.ipynb
+jupyter notebook Prediction_model.ipynb
 ```
 This opens the notebook for EDA, preprocessing, and model training.
 
 ### Run Dash Dashboard
 ```bash
-python trial.py
+python Dashboard.py
 ```
 Then open **http://127.0.0.1:8051/** in your browser.
 
