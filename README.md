@@ -80,12 +80,5 @@ Then open **http://127.0.0.1:8051/** in your browser.
 
 ---
 
-## 👨‍💻 Team
-- **Ankit Tadla**
-- **Shilpa**
-- **Vivek**
-
----
-
 ## 📜 License
 This project is open-source for learning and research use.
